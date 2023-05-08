@@ -12,7 +12,7 @@ Model to help classify patients' stroke risk according to a range of reported he
 - Applied logistic regression,random forest, knn, svm, xgboost, lgbm and catboost algorithms to dataset to get feel for relative performance.
 - Assessed model performance by comparing core metrics (accuracy, recall, precision, F1, Matthew's Correlation Coefficient).
 
-## Hyperparameter Tuning
+## Hyperparameter tuning
 
 - Performed model tuning using Optuna
 - Used Matthew's Correlation Coefficient to compare models so metric would be sensitive to ratio of TN to FN given distress that could be caused by innaccurate categorisation.
